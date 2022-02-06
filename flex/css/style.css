@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-image: url(/img/hamburguesa.png);
+  background-size: cover;
+}
+fieldset {
+  border: none;
+}
+
+legend {
+  font-size: 2rem;
+  font-weight: bolder;
+  color: rgb(3, 3, 99);
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-style: italic;
+  font-weight: lighter;
+  color: aqua;
+  width: 100%;
+}
+
+label {
+  font-size: 1.25rem;
+  color: black;
+  font-style: italic;
+}
+
+form {
+  width: 80vw;
+  height: 90vh;
+  margin: auto;
+  border: 5px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10rem;
+}
+
+form :nth-child(1) > fieldset {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/*
+
+
+
+
+fieldset {
+  border: none;
+  margin-bottom: 70px;
+}
+
+form :nth-child(1) > fieldset{
+    width: 200px;
+    height: 200px;
+    display:flex;
+    flex-direction:rows
+
+}
+form :nth-child(1) {
+  text-align: center;
+  margin-top: 20px;
+}
+
+}
+form :nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+*/
