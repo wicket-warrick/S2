@@ -25,7 +25,7 @@ h3 {
   font-size: 1.5em;
   font-style: italic;
   font-weight: lighter;
-  color: aqua;
+  color: rgb(8, 14, 56);
   width: 100%;
 }
 
@@ -73,14 +73,53 @@ form {
 select {
   background-color: white;
   font-size: 25px;
-  color: blue;
+  padding: 1rem 0.5rem;
+  color: rgb(5, 5, 5);
   font-weight: bold;
   text-align: center;
 }
 button {
-  background-color: rgb(7, 4, 179);
+  background-color: rgb(5, 24, 85);
   font-size: 25px;
   color: rgb(247, 245, 245);
   font-weight: bold;
   padding: 10px 10px;
+}
+input {
+  font-size: 1.5rem;
+  padding: 1rem 0.25rem;
+  outline: none;
+}
+
+@media (max-width: 600px) {
+  legend {
+    font-size: 1rem;
+  }
+  h3 {
+    font-size: 0.75em;
+  }
+  label {
+    font-size: 1rem;
+  }
+
+  #personal,
+  #size {
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+
+  #delivery,
+  #pay {
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+
+  select {
+    font-size: 20px;
+  }
+  button {
+    font-size: 20px;
+
+    padding: 5px 5px;
+  }
 }

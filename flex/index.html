@@ -60,7 +60,6 @@
             placeholder="que precisas"
             cols="40"
             rows="10"
-            maxlength="10"
           ></textarea>
         </fieldset>
 
@@ -68,6 +67,7 @@
           <legend>MÉTODO DE PAGO</legend>
           <label for="pay"></label>
           <select id="pay" name="pay" required>
+            <option value="">Escolle unha opcion</option>
             <option value="1">Tarxerta de crédito</option>
             <option value="2">BIZUM</option>
             <option value="3">Metálico</option>
@@ -75,7 +75,7 @@
           </select>
         </fieldset>
 
-        <button>ENVIAR</button>
+        <button type="submit">ENVIAR</button>
       </form>
     </main>
   </body>

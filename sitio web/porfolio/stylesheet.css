@@ -30,10 +30,22 @@ a:visited {
   text-decoration: none;
 }
 
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex-grow: 1;
+}
+
 /*CABECERA*/
 
-BODY > header {
+BODY > header,
+footer {
   background-color: black;
+  color: #004225;
   padding: 1rem 0;
   font-size: 1.5rem;
 }
@@ -112,4 +124,8 @@ h3 {
     align-items: center;
     gap: 50px;
   }
+}
+
+footer {
+  text-align: center;
 }
