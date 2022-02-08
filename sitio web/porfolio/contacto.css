@@ -30,12 +30,13 @@ a:visited {
   text-decoration: none;
 }
 
-/*CABECERA*/
+/*CABECERA "CONTACTO"*/
 
 BODY > header {
   background-color: black;
   padding: 1rem 0;
   font-size: 1.5rem;
+  margin-bottom: 2rem;
 }
 
 ul {
@@ -45,7 +46,8 @@ ul {
   justify-content: center;
   gap: 100px;
 }
-/*CABECERA MEDIAQUERY*/
+
+/*CABECERA "CONTACTO" MEDIAQUERY*/
 
 @media (max-width: 900px) {
   BODY > header {
@@ -57,59 +59,26 @@ ul {
   }
 }
 
-/*CORPO PRINCIPAL*/
+/*BODY "CONTACTO"*/
 
-section {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  gap: 100px;
-  margin-top: 150px;
-  padding-bottom: 100px;
-}
-figure {
-  width: 300px;
-}
-
-article {
-  text-align: center;
-}
-
-h1 {
-  margin-top: 2rem;
-  font-size: 1.5rem;
-  color: #004225;
-}
-
-h3 {
-  font-size: 1rem;
+#contact header h1 {
+  font-size: 3rem;
   color: #004225;
   margin-bottom: 1rem;
 }
 
-/*CORPO PRINCIPAL MEDIAQUERY*/
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+/*BODY "CONTACTO" MEDIAQUERY*/
 
-@media (max-width: 900px) {
-  h3 {
-    font-size: 0.75rem;
-  }
-  h1 {
-    margin-top: 0.5rem;
-    font-size: 1.25rem;
+@media (max-width: 650px) {
+  #contact header h1 {
+    font-size: 1.75rem;
   }
   p {
     font-size: 0.75rem;
-  }
-
-  h4 {
-    font-size: 0.75rem;
-  }
-  figure {
-    width: 225px;
-  }
-  section {
-    flex-direction: column;
-    align-items: center;
-    gap: 50px;
   }
 }
